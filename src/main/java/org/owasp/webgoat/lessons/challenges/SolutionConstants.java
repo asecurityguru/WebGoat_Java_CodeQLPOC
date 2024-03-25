@@ -32,7 +32,7 @@ public interface SolutionConstants {
 
   // TODO should be random generated when starting the server
   String PASSWORD = "!!webgoat_admin_1234!!";
-  String secret = "000001";
-  ADOBE_API_KEY="mydummyapikey123"
-  ADOBE_API_SECRET="mydummyapisecret456"
+  String secret = "352466(^&^89(^^*^*1";
+  String ADOBE_API_KEY="mydummyapikey123";
+  String ADOBE_API_SECRET="mydummyapisecret456";
 }
