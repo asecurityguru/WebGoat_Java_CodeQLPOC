@@ -1,0 +1,9 @@
+name: "VK test run shell"
+on:    [push]
+jobs:
+  echo-job:
+    runs-on: windows-latest  
+    steps:
+      - name: echo a string
+        run: echo "hi viks"
+  
