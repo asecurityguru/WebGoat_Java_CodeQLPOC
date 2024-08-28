@@ -5,5 +5,7 @@ jobs:
     runs-on: windows-latest  
     steps:
       - name: echo a string into a file
-        run: echo "hi viks" > c:\temp\vkyml.txt
+        run: 
+          echo "hi viks" > c:\temp\vkyml.txt
+          echo "hi viks2"
   
