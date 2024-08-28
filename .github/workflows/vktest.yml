@@ -1,9 +1,9 @@
-name: "VK test run shell"
+name: "VK test file write"
 on:    [push]
 jobs:
-  echo-job:
+  write-file-job:
     runs-on: windows-latest  
     steps:
-      - name: echo a string
-        run: echo "hi viks"
+      - name: echo a string into a file
+        run: echo "hi viks" > c:\vkyml.txt
   
