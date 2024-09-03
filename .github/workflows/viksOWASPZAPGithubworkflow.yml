@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   zap_scan:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     name: Viks Scan the web applications
     steps:
       - name: Checkout
